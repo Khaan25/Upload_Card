@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload - ZiaCodes</title>
+
+    <!-- ==================== CSS FILE ==================== -->
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
+
+    <!--==================== UNICONS ==================== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ==================== METAs ==================== -->
+    <meta name="description" content="A File Upload UI made by Zia Khaan">
+    <meta name="author" content="Zia Codes">
+    <meta name="keywords" content="CustomFileUpload, UI, ZiaCodes">
+
+</head>
+
+<body>
+    <!-- ==================== UPLOAD POPUP ==================== -->
+    <div class="upload__popup">
+        <div class="popup__container">
+            <div class="popup__header">
+                <div class="popup__file">
+                    <i class="popup__file-icon uil uil-folder-upload"></i>
+                </div>
+                <i class="popup__file-close uil uil-times"></i>
+            </div>
+            <div class="popup__content">
+                <h3 class="popup__title">Upload a File</h3>
+                <p class="popup__description">Attach the File Below</p>
+
+                <button class="popup__upload-area">
+                    <i class="popup__upload-area-icon uil uil-file-upload"></i>
+                    <span class="popup__upload-area-title">Drag File(s) here to Upload</span>
+                    <span class="popup__upload-area-description">Alternatively, You can Select a File by</span>
+                    <!-- <input type="file" id="popupUploadSelect"> -->
+
+                    <label id="popupUploadBtn">
+                        <input type="file" id="popupUploadSelect">Custom Upload
+                    </label>
+
+                </button>
+
+                <div class="popup__btns">
+                    <button class="popup__cancel-btn btn">Cancel</button>
+                    <button class="popup__upload-btn btn">Upload File</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
