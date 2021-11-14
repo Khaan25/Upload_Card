@@ -9,4 +9,4 @@
 
 Join the channel to see more videos like this. [Zia Codes](https://www.youtube.com/channel/UC_YHt2kls6yYWTpWMm1MLwg?sub_confirmation=1)
 
-![Card_Upload](/IMAGES/preview.png)
+![Card_Upload](/preview.png)
