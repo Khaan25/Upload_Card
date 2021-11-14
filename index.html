@@ -8,10 +8,7 @@
     <title>File Upload - ZiaCodes</title>
 
     <!-- ==================== CSS FILE ==================== -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- ==================== FAVICON ==================== -->
-    <link rel="shortcut icon" href="ASSETS/IMAGES/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="ASSETS/CSS/style.css">
 
     <!--==================== UNICONS ==================== -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -27,7 +24,7 @@
     <!-- ==================== UPLOAD POPUP ==================== -->
     <div class="upload__popup">
         <div class="popup__container">
-            <div class="popup__up-header">
+            <div class="popup__header">
                 <div class="popup__file">
                     <i class="popup__file-icon uil uil-folder-upload"></i>
                 </div>
@@ -35,29 +32,27 @@
             </div>
             <div class="popup__content">
                 <h3 class="popup__title">Upload a File</h3>
-                <p class="popup__description">Attach the file below.</p>
+                <p class="popup__description">Attach the File Below</p>
 
                 <button class="popup__upload-area">
                     <i class="popup__upload-area-icon uil uil-file-upload"></i>
-                    <span class="popup__upload-area-title">Drag file(s) here to upload.</span>
-                    <span class="popup__upload-area-description">Alternatively, you can select a file by</span>
-                    <!-- <input id="popupUploadSelect" type="file"> -->
+                    <span class="popup__upload-area-title">Drag File(s) here to Upload</span>
+                    <span class="popup__upload-area-description">Alternatively, You can Select a File by</span>
+                    <!-- <input type="file" id="popupUploadSelect"> -->
 
                     <label id="popupUploadBtn">
-                        <input id="popupUploadSelect" type="file"/>Custom Upload
+                        <input type="file" id="popupUploadSelect">Custom Upload
                     </label>
 
                 </button>
-                <div class="popup__up-btns">
+
+                <div class="popup__btns">
                     <button class="popup__cancel-btn btn">Cancel</button>
                     <button class="popup__upload-btn btn">Upload File</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- ==================== MAIN JS ==================== -->
-    <script src="main.js"></script>
 
 </body>
 
